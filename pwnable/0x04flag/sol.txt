@@ -1,0 +1,12 @@
+
+//decompress
+sudo apt-get install upx-ucl
+upx -d flag
+
+//debug
+gdb flag
+disassemble main
+break *0x000000000040118b
+r
+x/s $rdx
+UPX...? sounds like a delivery service :)

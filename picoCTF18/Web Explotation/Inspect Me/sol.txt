@@ -1,0 +1,8 @@
+http://2018shell3.picoctf.com:28831/
+HTML
+JS
+CSS
+
+
+picoCTF{ur_4_real_1nspect0r_g4dget_b4887011}
+

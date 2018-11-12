@@ -1,0 +1,3 @@
+unzip flag.zip
+
+picoCTF{welcome_to_forensics}

@@ -1,0 +1,18 @@
+cd 
+
+touch permission.txt
+
+vim permission.txt
+yes
+yes
+yes
+yes
+yes
+yes
+
+/problems/absolutely-relative_3_c1a43555f1585c98aab8d5d2c7f0f9cc/absolutely-relative
+
+picoCTF{3v3r1ng_1$_r3l3t1v3_6193e4db}
+
+
+

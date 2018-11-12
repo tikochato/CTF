@@ -1,0 +1,3 @@
+file flag.png
+cp flag.png flag.jpg
+picoCTF{extensions_are_a_lie}

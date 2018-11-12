@@ -1,0 +1,16 @@
+http://2018shell3.picoctf.com:6153/
+
+Login as random user:
+daor
+daor
+
+inspect cookie and change it
+admin: True
+user: admin
+
+then re-send Get Flag whit the modified cookie
+
+
+
+
+picoCTF{l0g1ns_ar3nt_r34l_82e795f4}

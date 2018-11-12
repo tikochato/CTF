@@ -1,0 +1,16 @@
+gdb run
+set disassembly-flavor intel
+disassemble main
+disassemble decrypt_flag
+
+//find last flag_buf modification
+   0x0000000000400896 <+272>:	mov    rdx,QWORD PTR [rip+0x200b4b]        # 0x6013e8 <flag_buf>
+   0x000000000040089d <+279>:	mov    eax,DWORD PTR [rbp-0x20]
+
+break *0x000000000040089d
+r
+//hit the breakpoint and look for the rdx registry
+(gdb) x/s $rdx
+0x602010:	"picoCTF{gDb_iS_sUp3r_u53fuL_f3f39814}"
+
+
